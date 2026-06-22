@@ -1,10 +1,14 @@
 {
-  "name": "create-starterpack",
+  "name": "create-go-starter",
+  "author": {
+    "name": "Raghav Korde",
+    "url": "https://github.com/dev-rvk"
+  },
   "version": "0.1.0",
   "description": "Scaffold a new app from the starterpack monorepo template.",
   "type": "module",
   "bin": {
-    "create-starterpack": "./index.mjs"
+    "create-go-starter": "index.mjs"
   },
   "files": [
     "index.mjs"
