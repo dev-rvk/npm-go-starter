@@ -1,0 +1,38 @@
+{
+  "name": "create-starterpack",
+  "version": "0.1.0",
+  "description": "Scaffold a new app from the starterpack monorepo template.",
+  "type": "module",
+  "bin": {
+    "create-starterpack": "./index.mjs"
+  },
+  "files": [
+    "index.mjs"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "starterpack",
+    "create",
+    "scaffold",
+    "template",
+    "turborepo"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-rvk/bun-starterpack.git"
+  },
+  "homepage": "https://github.com/dev-rvk/bun-starterpack#readme",
+  "bugs": {
+    "url": "https://github.com/dev-rvk/bun-starterpack/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@clack/prompts": "^0.8.2",
+    "giget": "^1.2.3"
+  }
+}
