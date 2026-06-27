@@ -6,7 +6,7 @@ monorepo template.
 ```bash
 bun create go-starter my-app     # via bun's create-* resolver
 bunx create-go-starter my-app    # via npm/bunx
-npm create go-starterk@latest my-app
+npm create go-starter@latest my-app
 ```
 
 If you omit the name it will prompt for one. The CLI downloads the template from
