@@ -1,12 +1,12 @@
-# create-starterpack
+# create-go-starter
 
 Scaffold a new app from the [starterpack](https://github.com/dev-rvk/starter)
 monorepo template.
 
 ```bash
-bun create starterpack my-app     # via bun's create-* resolver
-bunx create-starterpack my-app    # via npm/bunx
-npm create starterpack@latest my-app
+bun create go-starter my-app     # via bun's create-* resolver
+bunx create-go-starter my-app    # via npm/bunx
+npm create go-starterk@latest my-app
 ```
 
 If you omit the name it will prompt for one. The CLI downloads the template from
@@ -39,8 +39,8 @@ node index.mjs /tmp/test-app     # scaffold into a scratch dir
 
 ## Publish
 
-The package name **must** start with `create-` for `bun create starterpack` /
-`npm create starterpack` to resolve it.
+The package name **must** start with `create-` for `bun create-go-starter` /
+`npm create go-starter` to resolve it.
 
 ```bash
 npm publish        # access:public is set in package.json
